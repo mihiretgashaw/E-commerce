@@ -1,9 +1,9 @@
-# Byte-compiled / optimized / DLL files
+# Python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environment
+# Virtual environments
 venv/
 .env/
 env/
@@ -39,20 +39,20 @@ htmlcov/
 .coverage
 coverage.xml
 
-# Data
+# Data and session files
 data/
-!data/*.dvc
-
-# Model artifacts or weights (if any)
-models/
-checkpoints/
-
-# CSV or temp files
 *.csv
 *.tsv
 *.tmp
 *.txt
-
-# Telethon session (if you're using session file)
 *.session
 *.session-journal
+
+# Model artifacts or weights
+notebooks/DistilBERT_ner_model/
+notebooks/DistilBERT_ner_model_final/
+notebooks/XLM-Roberta_ner_model/
+notebooks/XLM-Roberta_ner_model_final/
+notebooks/mBERT_ner_model/
+notebooks/mBERT_ner_model_final/
+notebooks/models/
