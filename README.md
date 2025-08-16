@@ -1,8 +1,10 @@
 # EthioMart Telegram E-commerce Data Extractor
 
 ## Project Overview
-This project extracts and analyzes product data from Ethiopian Telegram channels to support micro-lending decisions for small vendors. 
-It leverages Named Entity Recognition (NER) models to identify products and prices, evaluates model performance, explains predictions with interpretability tools, and calculates vendor metrics such as posting frequency, average views, and lending scores.
+
+This project extracts and analyzes product data from Ethiopian Telegram channels to support the creation of a centralized e-commerce hub. 
+It leverages Named Entity Recognition (NER) models to identify products, prices, and locations, evaluates model performance, and explains predictions using interpretability tools. 
+Key vendor metrics such as posting frequency, average views, and product pricing are calculated to understand vendor activity and trends.
 
 ## Key Features
 - **Telegram Data Scraper:** Collects posts and metadata (timestamps, views, prices) from vendor channels.
